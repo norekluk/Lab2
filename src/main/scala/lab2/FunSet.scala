@@ -15,8 +15,6 @@ object FunSet {
 
   def filter(s: Set, p: Int => Boolean): Set = ???
 
-  def map(s: Set, f: Int => Int): Set = ???
-
   def toString(s: Set, from: Int = -1000, to: Int = 1000): String =
     from.to(to)
       .filter(x => contains(s, x))
