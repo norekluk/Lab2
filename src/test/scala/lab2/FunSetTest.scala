@@ -18,10 +18,4 @@ class FunSetTest extends FunSuite {
     assert(s(2))
   }
 
-  test("map") {
-    val s = map(union(singleton(2), singleton(3)), x => x * 2)
-    assert(s(4))
-    assert(s(6))
-  }
-
 }
